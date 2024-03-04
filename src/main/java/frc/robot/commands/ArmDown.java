@@ -20,13 +20,13 @@ public class ArmDown extends Command {
   // Called when the command is initially scheduled.
   @Override
   public void initialize() {
-    m_arm.setArmAngle(-0.495);
+    m_arm.setArmAngle(0.487);
   }
 
   // Called every time the scheduler runs while the command is scheduled.
   @Override
   public void execute() {
-    m_arm.setArmAngle(-0.495);
+    m_arm.setArmAngle(0.487);
   }
 
   // Called once the command ends or is interrupted.
